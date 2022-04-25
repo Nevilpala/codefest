@@ -44,6 +44,8 @@ header ul li a{
 	font-family: cursive;
 }
 @media screen and (max-width: 576px){
+        .header_top{
+Height:2vh;}
 	body{
 		padding: 0 15px;
 	}
