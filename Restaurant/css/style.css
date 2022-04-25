@@ -45,7 +45,11 @@ header ul li a{
 }
 @media screen and (max-width: 576px){
         .header_top{
-Height:2vh;}
+		height:2vh;
+	}
+	header{
+		position: relative;
+	}
 	body{
 		padding: 0 15px;
 	}
