@@ -61,6 +61,9 @@ header ul li a{
 	header nav a .logo{
 		width: 30%;
 	}
+	.home_section{
+		padding:5% 0;
+	}	
 }
 
 /*HOME-SECTION*/
