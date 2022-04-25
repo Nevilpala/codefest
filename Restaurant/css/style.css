@@ -50,6 +50,7 @@ header ul li a{
 	header{
 		position: relative;
 		top:0;
+		heigth:auto;
 	}
 	body{
 		padding: 0 15px;
