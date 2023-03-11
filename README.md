@@ -1,3 +1,3 @@
 # codefest
 
-<a href="https://nevilpala.github.io/codefest/Restaurant" >View</a>
+<a href="https://nevilpala.github.io/codefest/Codefest%20/Restaurant" >Restaurant</a>
