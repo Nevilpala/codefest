@@ -1,0 +1,66 @@
+.slideshow{
+    height: 100vh;
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p,span,a,img,div,i,input,textarea,body,header,nav,ul,li,nav,header,.img-fluid{
+	margin: 0;
+	padding: 0;
+}
+
+/*HEADER-------------------------------------------------------------------------------*/
+
+nav{
+    padding : 0px 25px;
+}
+.logo{
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.logo:hover{
+    color: white;
+}
+.logo span{
+     color: rgb(255,194,33);
+}
+.mynavcollaspe ul li{
+    text-align: center;
+}
+.mynavcollaspe ul li ul li{
+    background-color: rgba(22,34,57,0.95);
+    font-size: 12px;
+}
+.mynavcollaspe  ul li a{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 640;
+    border : 1.5px solid rgba(0,0,0,0);
+    padding: 5px 15px;
+    font-size: 13px;
+    letter-spacing:0.5px;
+}
+.marginleft{
+    margin-left: 20px;
+}
+.mynavcollaspe  ul li a:hover{
+    border : 1.5px solid rgb(255,194,33);
+    color : white;
+}
+.navdropdown,.navdropdown ul{
+    margin: 0;
+    padding: 0;
+}
+.navdropdown ul li{
+    margin: 0;
+    padding: 0;
+    line-height: 35px;
+    text-align: center;
+}
+.navdropdown ul li a:hover{
+    color: rgb(255,194,33);
+    background-color: rgba(22,34,57,0.95);
+    border :0;
+}

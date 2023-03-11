@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto+Slab&display=swap');
+
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p,span,a,img,div,i,input,textarea,body,header,nav,ul,li,nav,header,.img-fluid{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+/* HEADER ----------------------------------------------------------------- */
+
+header a.logo{
+    font-size:  24px;
+}
+header nav ul.menulist li a{
+    color: white!important;
+    border-radius: 10px;
+    padding: 2px 10px!important;
+    letter-spacing: 0.05px;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}   
+header nav ul.menulist li a.active{
+    background-color: rgb(77, 73, 73);
+}
+
+header nav ul.menulist li{
+    border-radius: 25px;
+    padding: 0 15px;
+}
+
+header .searchInput{
+    background-color: white;
+    border-radius: 50px;
+    padding: 5px 10px;
+    position: relative;
+    width: 250px;
+    height: 100%;
+}
+header .searchInput input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    /* outline: transparent!important; */
+    background-color: transparent;
+    border-radius: 50px;
+    padding-left: 30px;
+
+}
+header .searchInput input::placeholder {
+    color: grey;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+/* BANNER ----------------------------------------------------------------- */
+
+.banner{
+    background: url(../assets/img/53158557875.png) no-repeat left top / cover;
+    min-height: 110vh;
+    filter:contrast(120%);
+
+    width: 100%;
+}
+
+.title-hike{
+    padding: 0!important;
+    font-size: 5rem;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+.subtitle-hike{
+    font-size: 3rem;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    position: relative;
+    overflow: hidden;
+
+}
+.subtitle-hike::before,.subtitle-hike::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    height:3px;
+    width: calc(50% - 150px);
+    background-color: white;
+    /* z-index: -1; */
+}
+.subtitle-hike::before{
+    left: 0;
+}
+.subtitle-hike::after{
+    right: 0;
+}
+
+.learnmoreBtn{
+    background-color: transparent;
+    border-radius: 50px;
+    padding: 2px 40px;
+    font-size: 13px;
+    border: 5px solid white;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.description{
+    padding: 25px;
+    background-color: rgba(151, 72, 15, 0.4);
+    color: white;
+    filter:contrast(120%);
+
+}
+.star_icon i{
+    font-size: 8px;
+}
+
+
+
+
+.blackbg{
+    position: relative;
+    z-index: 1;
+    margin-top: -50px;
+    background: url(../assets/img/black.png) no-repeat center center / cover;
+    height: 200px;
+    width: 100%;
+}
+
+
+/* ROUTE  ----------------------------------------------------------------- */
+
+.route{
+    margin-top: -70px;
+    background-color: #FFAF3C;
+}
+.route .container{
+    padding: 100px 0;
+}
+.blackbg2{
+    margin : 0 auto;
+    background-image: url(../assets/img/black02.png);
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    color: white;
+    padding: 50px 100px;
+}
+
+
+/* FOOTER  ----------------------------------------------------------------- */
+
+
+.hikemountain{
+    background: url(../assets/img/lonely-hiker.jpg) no-repeat right center / cover;
+    min-height: 1000px;
+}
+.hikemountain .learnmoreBtn{
+    color: black;
+    border-color: black;
+    border-width: 3px;
+}
+.hikemountain .row p{
+    padding: 15px 0;
+}
+.hikemountain .row .title{
+    border-bottom: 1.5px solid black;
+}
+.hikemountain .row p:not(.title){
+   line-height: 20px;
+   text-align: left!important;
+}
+
+
+@media screen and (min-width: 992px){
+    header nav .container-fluid{
+        flex-wrap: wrap!important;
+    }
+    header a.logo{
+        display: block!important;
+        width: 100%!important;
+        margin: 20px 0;
+    }
+    .description{
+        margin-left: 50px;
+    }
+    .blackbg2{
+        padding: 80px 150px;
+        width: 60%;
+    }
+}
